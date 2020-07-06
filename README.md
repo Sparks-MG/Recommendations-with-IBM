@@ -36,9 +36,8 @@ The dataset is comprised out two csv files which were scrapped from the IBM Wats
 </pre>
 
 ### Eample Screenshots of a potential dashboard based on the recommendation engine
-**_A glimpse of a potential dashboard based on this recommendation engine_**
 ![HOME](example_images/screen-shot-2018-09-17-at-3.40.30-pm.png)
-
+_A glimpse of a potential dashboard based on this recommendation engine_
 ### Project Conclussion
 
 The training data indicates that atleast 300 latent features are necessary to achieve a high accuracy. More latent features only increase the accuracy marginally. The test data declines with rising number of latent features to a relativly high baseline value. However, only 20 users appear in both training and test data. Thus, the data situation is insufficient for a recommender situation based on collaborative filtering methods like SVD. It is advisable to employ a larger data set with more mutual users.
@@ -48,4 +47,5 @@ The training data indicates that atleast 300 latent features are necessary to ac
 **Further steps** should include testing the effect of <u>content based recommendations</u> (extra section). This might be done via an NLP modell. Wrapping the different parts of the recommender engine in classes would enhance the structure of the code that can be easily used with a web application. Finally, experiments on different user groups should be performed  with the old and the new recommender systems in comparison <u>(A/B-testing)</u> in order to validate the recommender engine.
 
 ### Aknowledgement
+* IBM for providing the data set employed in this project.
 * A multitude of Stackoverflow users whose questions and answers I found, when looking for a specific coding problem.
