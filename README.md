@@ -35,7 +35,9 @@ The dataset is comprised out two csv files which were scrapped from the IBM Wats
 
 ### Eample Screenshots of a potential dashboard based on the recommendation engine
 ![HOME](example_images/screen-shot-2018-09-17-at-3.40.30-pm.png)
+
 _A glimpse of a potential dashboard based on this recommendation engine._
+
 ### Project Conclussion
 
 The training data indicates that atleast 300 latent features are necessary to achieve a high accuracy. More latent features only increase the accuracy marginally. This 'good' accuracy is likely due to the fact that there is a class imbalance issue, as there are far more 0's compared to 1's. A model predicting 0's more often than 1's will always yield a high accuracy. The test data declines with rising number of latent features to a relativly high baseline value. However, only 20 users appear in both training and test data. Thus, the data situation is insufficient for a recommender situation based on collaborative filtering methods like SVD. It is advisable to employ a larger and especially better balanced data set with more mutual users.
